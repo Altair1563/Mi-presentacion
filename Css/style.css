@@ -180,8 +180,46 @@ h2 {
     border-radius: 20px;
 }
 
+.contacto-canvas {
+    background-color:#010918;
+    
+}
+
+.offcanvas-header {
+    padding: 10px;
+}
+
+.offcanvas-body {
+    padding: 10px;
+    flex-grow: 0;
+}
+
+.offcanvas-bottom {
+    padding: 10px;
+}
+
+.canvas-logos {
+    padding: 10px;
+}
+
+.header-h5 {
+    margin-top: 15px;
+}
+
+h4 {
+    color: #09ff00;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    justify-content: center;  
+}
+
+h5  {
+    color: #09ff00;
+    font-size: 1rem;  
+}
+
 .futer {
-    background-color: red;
+    background-color:#010918 ;
     border-radius: 0px 0px 20px 20px;
     margin-left: 0%;
     padding-left: 0%;

@@ -291,29 +291,60 @@
 
     <section class="row contacto">
       <div class="col d-flex justify-content-center contacto-col">
-        <button class="btn btn-primary contacto-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
-          aria-controls="offcanvasBottom">Contactame</button>
+        <button class="btn btn-primary contacto-btn" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Contactame</button>
 
-        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+        <div class="offcanvas offcanvas-start contacto-canvas" tabindex="-1" id="offcanvasBottom"
           aria-labelledby="offcanvasBottomLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasBottomLabel">
-              ¡Excelente que hayas llegado hasta aquí! Ahora es el momento perfecto para ponernos en contacto y conocer más sobre tus habilidades y expectativas. Estoy ansioso por saber cómo puedo contribuir a tu éxito profesional.</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body small">
-            ...
-          </div>
+
+          <section class="row offcanvas-header">
+            <div>
+
+              <h4 class="row offcanvas-title share-tech-mono-regular"> ¡Gracias por leer hasta aquí! </h4>
+
+              <h5 class="col share-tech-mono-regular header-h5" id="offcanvasBottomLabel">
+                Ahora es el momento perfecto para contactarnos...</h5>
+            </div>
+          </section>
+
+
+          <section class="offcanvas-body">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label text-white">Tu Email</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Usuario@contacto.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"
+                placeholder="Aqui tu Mensaje"></textarea>
+          </section>
+
+
+          <section class="offcanvas-bottom">
+            <div class="row">
+              <h5 class="share-tech-mono-regular" id="offcanvasBottomLabel">
+                Estoy ansioso por la posibilidad de ser parte de tus proyectos.A continuación, encontrarás mis perfiles
+                en redes sociales y mi CV para tu consideración.</h5>
+            </div>
+
+            <div class="d-flex justify-content-end canvas-logos">
+              <img width="48" height="48" src="https://img.icons8.com/3d-fluency/94/linkedin.png" alt="linkedin" />
+
+              <img width="48" height="48" src="https://img.icons8.com/color/48/github--v1.png" alt="github--v1" />
+
+              <img width="48" height="48" src="https://img.icons8.com/color/48/resume.png" alt="resume" />
+            </div>
         </div>
       </div>
     </section>
+
 
 
     <!-- Footer -->
     <footer>
       <section class="row container-fluid futer">
         <div class="col d-flex justify-content-center futer-div">
-          <p>Copyright................</p>
+          <p>Copyright - Elias Anatijczuk - 2024</p>
         </div>
       </section>
     </footer>
